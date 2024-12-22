@@ -1,0 +1,105 @@
+:root{
+    --primary-text-color: #757575;
+    --bold-text-color: #000000;
+    --semi-bold-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --main-background-color: #FFFFFF;
+    --accent-background-color: #2F303A;
+}
+/* text color: #000000; */
+/* h3, second color: #757575;*/
+/* accent text color: #2196F3;  */
+/* accent button color: #FFFFFF; */
+/* button background color: #188CE8; */
+/* hero background color: #2F303A; */
+/* hero text color: #FFFFFF; */
+/* h2, nav text color: #212121; */
+/* team section background: #F5F4FA; */
+body {
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    color: var(--bold-text-color);
+    font-family: Raleway, serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logo.accent {
+    color: var(--main-background-color);
+}
+
+.section-title {
+    color: var(--bold-text-color);
+}
+
+
+.accent-text {
+    color: var(--accent-text-color);
+}
+
+.hero,
+.footer {
+    color: var(--main-background-color);
+    background-color: var(--accent-background-color);
+}
+
+.features-title{
+    color: var(--semi-bold-text-color);
+}
+
+.team-title,
+.card-title {
+    color: var(--semi-bold-text-color);}
+
+.list {
+    list-style: none;
+}
+.site-nav .link {
+    color: var(--semi-bold-text-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-text-color);
+}
+
+
+a {
+    color: var(--semi-bold-text-color);
+}
+
+.site-nav a:hover, 
+.site-nav a:focus,
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-text-color);
+}
+
+.button {
+font-size: 24px;
+border: 1px solid var(--bold-text-color);
+display: inline-block;
+padding: 12px 24px;
+}
+
+.button.primary {
+    background-color: var(--accent-text-color);
+    color: var(--main-background-color); 
+    border: none;
+}
+
+.button.secondary {
+    color: var(--accent-text-color);
+    background-color: var(--main-background-color); 
+    border: var(--accent-text-color);
+}
+
+/* Прибрати підкреслювання лінків робот у портфоліо*/
+.works.list a {
+    text-decoration: none;
+}
